@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+data/prep_ai.db
+data/memory/
+*.log
+.DS_Store
+faiss_index/*.npy
+
+*.db
+.env.*
+
+# local files that must not be committed
+.env
+.env.local
+.streamlit/secrets.toml
+data/
+*.sqlite
+*.sqlite3
+.pytest_cache/
+.ipynb_checkpoints/
+preview/
+
+!.env.example
